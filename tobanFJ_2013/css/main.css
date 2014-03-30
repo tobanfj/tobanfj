@@ -1,0 +1,132 @@
+/*
+ * 
+ * 
+ * 
+ */
+ 
+ img
+ {
+	border				: 0px;
+	margin				: 0px black none;
+ }
+ 
+ body
+ {
+	background-color	: #006000;
+	text-align			: center;
+ }
+ 
+ .container
+ {
+	width				: 800px;
+	text-align			: left;
+	margin				: auto;
+	background-color	: #e0ffe0;
+ }
+ 
+.menu
+{
+	margin				: 4px;
+}
+
+.menu a
+{
+	border				: 1px #404040 solid;
+	padding				: 4px;
+	background-color	: #d0d0d0;
+	display				: inline-block;
+	font-size			: 90%;
+	font-weight			: bold;
+}
+
+.menu a:hover
+{
+	background-color	: white;
+	border				: 2px #404040 solid;
+	padding				: 3px;
+	text-decoration		: none;
+}
+
+.content-box
+{
+	padding				: 8px;
+}
+
+.content-header:before
+{
+	content				: "■ ";
+}
+.content-header
+{
+	width				: 320px;
+	border-bottom		: 3px #404040 solid;
+	background-color	: #006000;
+	padding				: 4px 4px 0px 4px;
+	margin				: 0px 0px 1px 0px;
+	font-weight			: bold;
+	color				: white;
+}
+
+.content-body
+{
+	border				: 2px #006000 solid;
+	padding				: 4px 4px 4px 12px;
+	background-color	: white;
+	line-height			: 160%;
+}
+
+.content-left
+{
+	display				: block;
+	float				: left;
+	width				: 500px;
+}
+
+.content-right
+{
+	display				: block;
+	float				: right;
+	width				: 250px;
+}
+
+.clear
+{
+	clear				: both;
+}
+
+.hidden
+{
+	display				: none;
+}
+
+ul, dl
+{
+	margin				: 4px;
+	padding				: 0px;
+}
+
+dt
+{
+	font-weight			: bold;
+	text-decoration		: underline;
+	clear				: both;
+}
+
+.adbox a
+{
+	border				: 1px #006000 solid;
+	display				: block;
+	float				: left;
+	padding				: 4px;
+	width				: 210px;
+	height				: 230px;
+	text-align			: center;
+	margin				: 2px;
+	font-size			: 80%;
+}
+
+.chbox a
+{
+	margin-right		: auto;
+}
+
